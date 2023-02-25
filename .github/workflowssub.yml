@@ -1,0 +1,10 @@
+name: shell command
+
+on: [push]
+
+jobs: 
+  run-shell-command:
+      runs-on: ubuntu-latest
+      steps:
+        name: echo a String
+        run: echo "hello"
